@@ -17,6 +17,8 @@ body {
 }
 
 .container {
+    margin-top: -2%;
+    
     width: 100%;
     max-width: 1100px;
     display: flex;
@@ -31,6 +33,7 @@ header {
 }
 
 .badge {
+    margin-top: -20%;
     display: inline-block;
     background: rgba(152, 113, 245, 0.15);
     color: #b293f7;
@@ -62,6 +65,7 @@ header p {
 
 /* --- CONTEÚDO PRINCIPAL --- */
 .main-content {
+    margin-top: -3%;
     display: grid;
     grid-template-columns: 1fr;
     gap: 24px;
@@ -177,6 +181,7 @@ textarea::-webkit-scrollbar-thumb:hover {
 
 /* --- RODAPÉ COM CRÉDITOS --- */
 footer {
+    margin-top: -20%;
     text-align: center;
     margin-top: 10px;
     padding-top: 24px;
@@ -189,6 +194,10 @@ footer p {
 }
 
 footer .highlight {
+    margin-top: -25%;
     color: #e2e8f0;
     font-weight: 600;
+}
+.boto{
+margin-top: -20%;
 }
